@@ -1,0 +1,92 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
+
+body {
+  background-color: linen;
+  font-size: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.roboto {
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+.body-box {
+  display: inline-block;
+  width: 100%;
+}
+
+.head-name-div {
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  display: inline-block;
+  width: 94%;
+  margin-left: 3%;
+  margin-top: 50px;
+}
+
+.head-name {
+  font-size: 40px;
+}
+
+.sub-head-div {
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  width: 94%;
+  display: inline-block;
+  margin-left: 3%;
+  margin-top: 10px;
+}
+
+.sub-head {
+  font-size: 15px;
+}
+
+.line {
+  margin: 25px 0;
+  border-bottom: black solid 1px;
+}
+
+.projects-box {
+  width: 100%;
+  display: inline-block;
+  background-color: cornsilk;
+}
+
+.title-div {
+  width: 98%;
+  margin-left: 1%;
+  background-color: white;
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.summary-div {
+  width: 98%;
+  margin-left: 1%;
+  background-color: green;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.tech-tags-div {
+  width: 98%;
+  margin-left: 1%;
+  font-size: 12px;
+  margin-top: 10px; 
+}
+
+.tech-tag {
+  padding: 3px 6px;
+}
+
+
+
+
+
+
+
+
+
+
