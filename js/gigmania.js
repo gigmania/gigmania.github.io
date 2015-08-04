@@ -27,4 +27,7 @@ $( document ).ready(function() {
 	$('#facebook').on('mouseup touchend', function () {
 		window.open('https://www.facebook.com/tyson.daugherty', '_blank');
 	});
+	$('#twitter').on('mouseup touchend', function () {
+		window.open('https://twitter.com/tysonium', '_blank');
+	});
 });
