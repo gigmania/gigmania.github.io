@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
 
 body {
-  background-color: linen;
+/*  background-color: linen;*/
   font-size: 10px;
 }
 
@@ -51,7 +51,7 @@ body {
   display: inline-block;
   width: 90%;
   margin-left: 5%;
-  margin-top: 25px;
+  margin-top: 10px;
   margin-bottom: 25px;
   border-bottom: black solid 1px;
 }
@@ -60,6 +60,25 @@ body {
   width: 100%;
   display: inline-block;
 /*  background-color: cornsilk;*/
+}
+
+.projects-head-div {
+  display: inline-block;
+  width: 88%;
+  margin-left: 6%;
+}
+
+.project-head-div {
+  display: inline-block;
+  width: 30%;
+  font-size: 20px;
+  margin-left: 1.75%;
+}
+
+.select-projects {
+  font-size: 20px;
+  font-style: italic;
+  border-bottom: black solid 1px;
 }
 
 .project-box {
@@ -93,6 +112,32 @@ body {
 
 .tech-tag {
   padding: 3px 6px;
+}
+
+.foot-note-star {
+  color: rgba(201, 8, 255, 1);
+}
+
+.foot-note-div {
+  margin-top: 40px;
+  display: inline-block;
+  width: 88%;
+  margin-left: 6%;
+  font-size: 16px;
+}
+
+.social-icons-div {
+  margin-top: 10px;
+  display: inline-block;
+  width: 40%;
+  margin-left: 30%;
+}
+
+.social-icon-div {
+  display: inline-block;
+  width: 30%;
+  margin-left: 1.75%;
+  font-size: 30px;
 }
 
 
