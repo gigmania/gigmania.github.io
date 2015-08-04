@@ -130,7 +130,7 @@ body {
 
 .tech-tag-div {
   display: inline-block;
-  background-color: black;
+  background-color: rgba(0,0,0, 0.75);
   color: white;
   border-radius: 28px;
   margin: 3px 7px 3px 0px;
@@ -207,9 +207,18 @@ body {
   margin-top: 3px;
 }
 
+.skill-tag-div {
+  display: inline-block;
+  background-color: rgba(0,0,0, 0.75);
+  color: white;
+  border-radius: 28px;
+  margin: 3px 7px 3px 0px;
+}
+
 .skill-tag {
   font-size: 12px;
-  padding: 0 5px;
+/*  padding: 0 5px;*/
+  padding: 3px 10px;
 }
 
 #facebook {
