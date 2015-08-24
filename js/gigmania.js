@@ -1,7 +1,7 @@
 
 $( document ).ready(function() {
 	$('#yummy-txts').on('mouseup touchend', function () {
-		window.open('http://yummytexts.meteor.com', '_blank');
+		window.open('https://ytexts-50542.onmodulus.net/', '_blank');
 	});
 	$('#rollcall').on('mouseup touchend', function () {
 		window.open('http://rollcallin.meteor.com', '_blank');
