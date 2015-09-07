@@ -1,10 +1,10 @@
 
 $( document ).ready(function() {
 	$('#yummy-txts').on('mouseup touchend', function () {
-		window.open('https://ytexts-50542.onmodulus.net/', '_blank');
+		window.open('https://yummytexts-50519.onmodulus.net/', '_blank');
 	});
 	$('#yummy-txts').on('mouseup touchend', function () {
-		window.open('https://ytexts-50542.onmodulus.net/', '_blank');
+		window.open('https://https://yummytexts-50519.onmodulus.net/', '_blank');
 	});
 	$('#rollcall').on('mouseup touchend', function () {
 		window.open('http://rollcallin.meteor.com', '_blank');
@@ -29,5 +29,11 @@ $( document ).ready(function() {
 	});
 	$('#twitter').on('mouseup touchend', function () {
 		window.open('https://twitter.com/tysonium', '_blank');
+	});
+	$('.toyjs-repo').on('mouseup touchend', function () {
+		window.open('https://github.com/gigmania/toyjs', '_blank');
+	});
+	$('.toyjs-site').on('mouseup touchend', function () {
+		window.open('http://www.toyjs.in', '_blank');
 	});
 });
