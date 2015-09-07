@@ -3,8 +3,11 @@ TYSONIUM
 ###www.tysonium.com
 A personal page highlighting recent projects.
 
+###toyjs
+Javascript calisthenics. Toy problems published weekdays at 9am PT. Toyjs is live at www.toyjs.in and you can find it on Github at https://github.com/gigmania/toyjs.
+
 ###Project T
-Project T is a stealth mode communication and media sharing mobile app targeting an underserved, yet high value, customer segment.
+Project T is a stealth mode communication and media sharing mobile app targeting an underserved, yet high value, customer segment. Development on this project is on hold.
 
 ###YummyTexts
 Yummy Texts is a text messaging management platform.
