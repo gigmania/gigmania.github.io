@@ -108,6 +108,15 @@ body {
   color: #FF6F00;
 }
 
+.exec-sum-div {
+  display: inline-block;
+  width: 88%;
+  margin-left: 6%;
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-style: italic;
+}
+
 .title:hover {
   text-shadow: 
     1px 0px 1px #ccc, 0px 1px 1px #eee, 
@@ -134,10 +143,6 @@ body {
 
 .tech-tag {
   padding: 3px 10px;
-/*  background-color: black;
-  color: white;
-  border-radius: 28px;
-  margin-right: 7px;*/
 }
 
 .tech-tag-div {
