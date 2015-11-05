@@ -118,8 +118,8 @@ body {
 }
 
 .title:hover {
-  text-shadow: 
-    1px 0px 1px #ccc, 0px 1px 1px #eee, 
+  text-shadow:
+    1px 0px 1px #ccc, 0px 1px 1px #eee,
     2px 1px 1px #ccc, 1px 2px 1px #eee,
     3px 2px 1px #ccc, 2px 3px 1px #eee,
     4px 3px 1px #ccc; /*3px 4px 1px #eee,
@@ -138,7 +138,7 @@ body {
   width: 98%;
   margin-left: 1%;
   font-size: 12px;
-  margin-top: 10px; 
+  margin-top: 10px;
 }
 
 .tech-tag {
@@ -272,18 +272,3 @@ body {
 .launch-festival-vid:hover {
   text-shadow:  1px 0px 1px #ccc, 0px 1px 1px #eee;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

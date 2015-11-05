@@ -21,10 +21,16 @@ $( document ).ready(function() {
 	$('#rollcall').on('mouseup touchend', function () {
 		window.open('http://rollcallin.meteor.com', '_blank');
 	});
+	$('.rollcall-site').on('mouseup touchend', function () {
+		window.open('http://rollcallin.meteor.com', '_blank');
+	});
 	$('#coderly').on('mouseup touchend', function () {
 		window.open('http://codeup.herokuapp.com', '_blank');
 	});
 	$('#oeuvre').on('mouseup touchend', function () {
+		window.open('http://dev.oeuvre.io/', '_blank');
+	});
+	$('.oeuvre-site').on('mouseup touchend', function () {
 		window.open('http://dev.oeuvre.io/', '_blank');
 	});
 	$('.launch-festival-vid').on('mouseup touchend', function () {
