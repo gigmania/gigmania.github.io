@@ -2,7 +2,6 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
 
 body {
-/*  background-color: linen;*/
   font-size: 10px;
 }
 
@@ -122,9 +121,7 @@ body {
     1px 0px 1px #ccc, 0px 1px 1px #eee,
     2px 1px 1px #ccc, 1px 2px 1px #eee,
     3px 2px 1px #ccc, 2px 3px 1px #eee,
-    4px 3px 1px #ccc; /*3px 4px 1px #eee,
-    5px 4px 1px #ccc, 4px 5px 1px #eee,
-    6px 5px 1px #ccc;*/
+    4px 3px 1px #ccc;
 }
 
 .summary-div {
@@ -168,9 +165,8 @@ body {
 .social-icons-div {
   margin-top: 10px;
   display: inline-block;
-  width: 40%;
-  margin-left: 30%;
-/*  background-color: yellow;*/
+  width: 30%;
+  margin-left: 40%;
 }
 
 .social-icon-div {
@@ -178,7 +174,6 @@ body {
   width: 20%;
   margin-left: 3%;
   font-size: 30px;
-/*  background-color: orange;*/
 }
 
 .skills-head-div {
