@@ -1,57 +1,26 @@
-
-$( document ).ready(function() {
-	$('#yummy-txts').on('mouseup touchend', function () {
-		window.open('https://yummytexts-50519.onmodulus.net/', '_blank');
-	});
-	$('.yummyT-site').on('mouseup touchend', function () {
-		window.open('https://yummytexts-50519.onmodulus.net/', '_blank');
-	});
-	$('#gweetux').on('mouseup touchend', function () {
-		window.open('https://github.com/gigmania/gweetux', '_blank');
-	});
-	$('.gweetux-site').on('mouseup touchend', function () {
-		window.open('https://github.com/gigmania/gweetux', '_blank');
-	});
-	$('#toyjs').on('mouseup touchend', function () {
-		window.open('http://www.toyjs.in', '_blank');
-	});
-	$('.toyjs-site').on('mouseup touchend', function () {
-		window.open('http://www.toyjs.in', '_blank');
-	});
-	$('#rollcall').on('mouseup touchend', function () {
-		window.open('http://rollcallin.meteor.com', '_blank');
-	});
-	$('.rollcall-site').on('mouseup touchend', function () {
-		window.open('http://rollcallin.meteor.com', '_blank');
-	});
-	$('#coderly').on('mouseup touchend', function () {
-		window.open('http://codeup.herokuapp.com', '_blank');
-	});
-	$('#oeuvre').on('mouseup touchend', function () {
-		window.open('http://dev.oeuvre.io/', '_blank');
-	});
-	$('.oeuvre-site').on('mouseup touchend', function () {
-		window.open('http://dev.oeuvre.io/', '_blank');
-	});
-	$('.launch-festival-vid').on('mouseup touchend', function () {
-		window.open('https://www.youtube.com/watch?v=mCKaYuXA_XE', '_blank');
-	});
-	$('#linkedin').on('mouseup touchend', function () {
-		window.open('https://www.linkedin.com/in/tysondaugherty', '_blank');
-	});
-	$('#github').on('mouseup touchend', function () {
-		window.open('https://github.com/gigmania', '_blank');
-	});
-	$('#facebook').on('mouseup touchend', function () {
-		window.open('https://www.facebook.com/tyson.daugherty', '_blank');
-	});
-	$('#twitter').on('mouseup touchend', function () {
-		window.open('https://twitter.com/tysonium', '_blank');
-	});
-	$('.toyjs-repo').on('mouseup touchend', function () {
-		window.open('https://github.com/gigmania/toyjs', '_blank');
-	});
-	$('.toyjs-site').on('mouseup touchend', function () {
-		window.open('http://www.toyjs.in', '_blank');
-	});
+$(document).ready(function() {
+  $('#gweetux').on('mouseup touchend', function() {
+    window.open('https://github.com/gigmania/gweetux', '_blank');
+  });
+  $('.gweetux-site').on('mouseup touchend', function() {
+    window.open('https://github.com/gigmania/gweetux', '_blank');
+  });
+  $('.launch-festival-vid').on('mouseup touchend', function() {
+    window.open('https://www.youtube.com/watch?v=mCKaYuXA_XE', '_blank');
+  });
+  $('#linkedin').on('mouseup touchend', function() {
+    window.open('https://www.linkedin.com/in/tysondaugherty', '_blank');
+  });
+  $('#github').on('mouseup touchend', function() {
+    window.open('https://github.com/gigmania', '_blank');
+  });
+  $('#twitter').on('mouseup touchend', function() {
+    window.open('https://twitter.com/tysonium', '_blank');
+  });
+  $('.px-timeline').on('mouseup touchend', function() {
+    window.open('https://www.predix-ui.com/#/elements/px-timeline', '_blank');
+  });
+  $('#px-timeline').on('mouseup touchend', function() {
+    window.open('https://www.predix-ui.com/#/elements/px-timeline', '_blank');
+  });
 });

@@ -10,7 +10,7 @@ body {
 }
 
 .roboto {
-  font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
 }
 
 .point {
@@ -23,7 +23,7 @@ body {
 }
 
 .head-name-div {
-  font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
   display: inline-block;
   width: 94%;
   margin-left: 3%;
@@ -35,7 +35,7 @@ body {
 }
 
 .sub-head-div {
-  font-family: "Roboto", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
   width: 94%;
   display: inline-block;
   margin-left: 3%;
@@ -58,7 +58,7 @@ body {
 .projects-box {
   width: 100%;
   display: inline-block;
-/*  background-color: cornsilk;*/
+  /*  background-color: cornsilk;*/
 }
 
 .projects-head-div {
@@ -90,7 +90,6 @@ body {
 .title-div {
   width: 98%;
   margin-left: 1%;
-/*  background-color: white;*/
   font-size: 25px;
   margin-top: 15px;
 }
@@ -104,7 +103,7 @@ body {
 .naked {
   text-decoration: none;
   font-style: italic;
-  color: #FF6F00;
+  color: #ff6f00;
 }
 
 .exec-sum-div {
@@ -116,12 +115,9 @@ body {
   font-style: italic;
 }
 
-.title:hover {
-  text-shadow:
-    1px 0px 1px #ccc, 0px 1px 1px #eee,
-    2px 1px 1px #ccc, 1px 2px 1px #eee,
-    3px 2px 1px #ccc, 2px 3px 1px #eee,
-    4px 3px 1px #ccc;
+.title-hot:hover {
+  text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee, 3px 2px 1px #ccc,
+    2px 3px 1px #eee, 4px 3px 1px #ccc;
 }
 
 .summary-div {
@@ -144,7 +140,7 @@ body {
 
 .tech-tag-div {
   display: inline-block;
-  background-color: rgba(0,0,0, 0.75);
+  background-color: rgba(0, 0, 0, 0.75);
   color: white;
   border-radius: 28px;
   margin: 3px 7px 3px 0px;
@@ -221,7 +217,7 @@ body {
 
 .skill-tag-div {
   display: inline-block;
-  background-color: rgba(0,0,0, 0.75);
+  background-color: rgba(0, 0, 0, 0.75);
   color: white;
   border-radius: 28px;
   margin: 3px 7px 3px 0px;
@@ -229,7 +225,6 @@ body {
 
 .skill-tag {
   font-size: 12px;
-/*  padding: 0 5px;*/
   padding: 3px 10px;
 }
 
@@ -238,7 +233,7 @@ body {
 }
 
 #twitter {
-  color: rgba(0, 172, 237,1);
+  color: rgba(0, 172, 237, 1);
 }
 
 #linkedin {
@@ -253,7 +248,7 @@ body {
 #twitter:hover,
 #github:hover,
 #linkedin:hover {
-  color: rgba(0,0,0, .9);
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .email-div {
@@ -265,5 +260,5 @@ body {
 }
 
 .launch-festival-vid:hover {
-  text-shadow:  1px 0px 1px #ccc, 0px 1px 1px #eee;
+  text-shadow: 1px 0px 1px #ccc, 0px 1px 1px #eee;
 }
