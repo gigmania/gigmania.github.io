@@ -1,26 +1,11 @@
 $(document).ready(function() {
-  $('#gweetux').on('mouseup touchend', function() {
-    window.open('https://github.com/gigmania/gweetux', '_blank');
+  $('.head-name-div').on('mouseup touchend', function() {
+    let redirectBase = 'https://app.sandpit.rapidai.com/'
+    let hash = window.location.hash;
+    let modifiedRedirect = `${redirectBase}${hash}`;
+    console.log('--- MODIFIED REDIRECT --- ', modifiedRedirect);
+    window.open(modifiedRedirect, '_self');
   });
-  $('.gweetux-site').on('mouseup touchend', function() {
-    window.open('https://github.com/gigmania/gweetux', '_blank');
-  });
-  $('.launch-festival-vid').on('mouseup touchend', function() {
-    window.open('https://www.youtube.com/watch?v=mCKaYuXA_XE', '_blank');
-  });
-  $('#linkedin').on('mouseup touchend', function() {
-    window.open('https://www.linkedin.com/in/tysondaugherty', '_blank');
-  });
-  $('#github').on('mouseup touchend', function() {
-    window.open('https://github.com/gigmania', '_blank');
-  });
-  $('#twitter').on('mouseup touchend', function() {
-    window.open('https://twitter.com/tysonium', '_blank');
-  });
-  $('.px-timeline').on('mouseup touchend', function() {
-    window.open('https://www.predix-ui.com/#/elements/px-timeline', '_blank');
-  });
-  $('#px-timeline').on('mouseup touchend', function() {
-    window.open('https://www.predix-ui.com/#/elements/px-timeline', '_blank');
-  });
+  
 });
+
