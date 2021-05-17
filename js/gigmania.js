@@ -4,6 +4,7 @@ $(document).ready(function() {
     let hash = window.location.hash;
     let modifiedRedirect = `${redirectBase}${hash}`;
     console.log('--- MODIFIED REDIRECT --- ', modifiedRedirect);
+    debugger;
     window.open(modifiedRedirect, '_self');
   });
   
