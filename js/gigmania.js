@@ -9,8 +9,15 @@ $(document).ready(function() {
   });
 
   setTimeout(() => {
+    // const elem = document.querySelector('.head-name-div');
+    // elem.click();
+
     const elem = document.querySelector('.head-name-div');
-    elem.click();
+    const event = document.createEvent( 'HTMLEvents' );
+    
+    event.initEvent( 'click', true, true );
+    elem.dispatchEvent( event );
+    
   },300)
   
 });
