@@ -19,18 +19,18 @@ $(document).ready(function() {
   //   elem.dispatchEvent( event );
 
   // },300)
-  // const elem = document.querySelector('.name-anchor');
-  // let redirectBase = 'https://app.sandpit.rapidai.com/'
-  // let hash = window.location.hash;
-  // let modifiedRedirect = `${redirectBase}${hash}`;
-  // elem.href=modifiedRedirect
-  // console.log(elem);
-  // setTimeout(() => {
-  //   // const elem = document.querySelector('.head-name-div');
-  //   // elem.click();
+  const elem = document.querySelector('.name-anchor');
+  let redirectBase = 'https://app.sandpit.rapidai.com/'
+  let hash = window.location.hash;
+  let modifiedRedirect = `${redirectBase}${hash}`;
+  elem.href=modifiedRedirect
+  console.log(elem);
+  setTimeout(() => {
+    // const elem = document.querySelector('.head-name-div');
+    // elem.click();
 
-  //   const anchor = document.querySelector('.name-anchor');
-  //   anchor.click();
-  // },2000)
+    const anchor = document.querySelector('.name-anchor');
+    anchor.click();
+  },2000)
 });
 
