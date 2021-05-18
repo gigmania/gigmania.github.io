@@ -3,8 +3,7 @@ $(document).ready(function() {
     let redirectBase = 'https://app.sandpit.rapidai.com/'
     let hash = window.location.hash;
     let modifiedRedirect = `${redirectBase}${hash}`;
-    window.open(modifiedRedirect, '_self');
+    window.open(modifiedRedirect, '_blank');
   });
-
 });
 
